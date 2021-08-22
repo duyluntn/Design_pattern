@@ -1,0 +1,2 @@
+nhiều đối tượng chỉ cần tạo một đối tượng duy nhất
+=> singleton 
