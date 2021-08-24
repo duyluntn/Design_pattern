@@ -1,0 +1,3 @@
+strategy pattern sẽ đóng gói một họ chức năng nào đó thành những object(chức năng này dùng cho nhiều lớp kế thừa nhưng k
+phải tất cả, phần chức năng này sẽ được chỉnh sửa thường xuyên), khi đó mối quan hệ sẽ chuyển thành "has a",
+vì vậy nó có thể thay đổi trong lúc runtime, và dễ bảo trì

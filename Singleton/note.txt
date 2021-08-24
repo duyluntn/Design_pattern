@@ -1,2 +1,2 @@
-nhiều đối tượng chỉ cần tạo một đối tượng duy nhất
-=> singleton 
+- giúp 1 class chỉ tạo duy nhất 1 đối tượng, đối tượng này thường là các class config, view, ..
+- nếu class singleton dùng trong nhiều thread thì phải có cơ chế bảo vệ

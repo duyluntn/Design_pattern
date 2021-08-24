@@ -1,0 +1,2 @@
+observer tạo mối liên kết lỏng lẻo, có thể register và unregister trong runtime, do đó có thể tối ưu được những time
+và class subject sẽ k động đến các chức năng khác ngoài chức năng update hoặc notify
