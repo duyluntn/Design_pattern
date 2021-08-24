@@ -1,0 +1,6 @@
+cách dùng
+- Xây dựng hệ thống hoặc ứng dụng sử dụng nhiều họ các products
+    (products đây vd như ScrollBar, Button; còn họ ở đây vd như Dark, Light).
+- Một họ các đối tượng products liên quan đến nhau, được thiết kế để được sử dụng cùng nhau một cách nhất quán.
+- Muốn tách biệt độc lập phần code sử dụng các products với việc implement và
+    tạo instance của chúng, nâng cao tính reusability và mantainability của hệ thống.

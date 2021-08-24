@@ -1,0 +1,2 @@
+Factory method là một creational design pattern, nhiệm vụ của nó là quản lý và trả về các đối tượng theo yêu cầu, giúp
+cho tạo đối tượng một cách linh hoạt hơn.
