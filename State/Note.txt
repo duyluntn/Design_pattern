@@ -1,0 +1,14 @@
+State Pattern cho phép một đối tượng có thể thay đổi hành vi (behavior) của nó dựa trên trạng thái bên trong
+(internal state). Do đó State Pattern phù hợp để áp dụng trong trường hợp hành vi một đối tượng phụ thuộc vào trạng thái
+của nó và nó phải thay đổi hành vi lúc runtime tùy thuộc vào từng trạng thái. Trong các hệ thống lớn và phức tạp thì
+áp dụng State Pattern sẽ giúp code của bạn sáng sủa, độc lập về logic, không phải check quá nhiều điều kiện if…else rồi
+switch…case loằng ngoằng, dễ maintain, dễ mở rộng hơn.
+
+điểm giống và khác nhau với strategy:
+giống:
+    cùng đóng gói hành động thành 1 class
+    có thể thay đổi ở run time
+    code dễ mantain
+khác:
+    ở state thì các state có mối liên hệ với nhau. như ví dụ thì ở processing sẽ chuyển sang state full or rentapartment
+    để thực hiện tiếp, còn ở mẫu strategy thì k, chúng độc lập với nhau
